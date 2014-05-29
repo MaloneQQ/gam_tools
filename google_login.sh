@@ -3,8 +3,8 @@
 #Logs are stored /var/log/google_logins.log
 ###################################################
  
-run="python /Users/jpistone/gam/gam.py report logins"
-log="/Users/jpistone/gam/login_history.log"
+run="python /path/to/gam/gam.py report logins"
+log="/path/to/gam/directory/login_history.log"
  
  
 rm $log
