@@ -4,8 +4,8 @@
 #Logs are stored /var/log/google_admin.log
 ###################################################
 
-run="python /path/to/gam/directory/gam.py report logins"
-log="/path/to/gam/directory/login_history.log"
+run="python /path/to/gam/directory/gam.py report admin"
+log="/path/to/gam/directory/google_admin.log"
 
 
 rm $log
